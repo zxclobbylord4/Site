@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фотостудия 9x12</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 30%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a class="navbar-brand p-0" href="/">
+                  <img src="Ps44.png" alt="logo" width="90" />
+              </a>
+              <button class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNav"
+                      aria-controls="navbarNav"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="/">На главную страницу</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="services.html">Услуги</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="container text-center my-3">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 mx-auto">
+                  <img class="rounded-img" src="4445.jpg" alt="camera" />
+                  <h1 class="fw-light">Фотостудия 9x12</h1>
+                  <p class="lead text-mute">Делаем любые виды печати!</p>
+                  <a href="https://vk.com/id122885310"
+                     target="_blank"
+                     class="btn btn-primary">
+                      Контакты
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="formhead >
+          Оставить заявку>
+          <div class="row">
+              <div class="col-lg-6 col-md-6 mx-auto">
+                  <p> Оставьте заявку и мы перезвоним вам в течение 15 минут. </p>
+
+                  <input type="text" name="Имя" placeholder="Ваше имя..." required>
+                  <input type="text" name="Телефон" placeholder="Ваш телефон..." required>
+                  <select name="Услуга">
+                      <option disabled selected value>Выберите услугу...</option>
+                      <option>Фотосессия</option>
+                      <option>Фотосессия от 6 человек</option>
+                      <option>Фото на документы</option>
+                      <option>Овалы на памятник цветные и черно-белые </option>
+                      <option>Фото на документы</option>
+                  </select>
+                  <button class="button button-white">Отправить</button>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
